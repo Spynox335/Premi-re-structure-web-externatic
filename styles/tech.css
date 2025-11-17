@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+      background-color: #101922;
+      color: white;
+
+}
+
+.tech-list {
+ display: flex;
+ flex-wrap: wrap;
+justify-content: center;
+ gap: 10px;
+}
+.tech {
+  background-color: #182634;
+ padding: 10px 16px;
+ border-radius: 6px;
+   border: 1px solid #223649;
+   transition: 100ms;
+
+}
+
+.tech:hover {
+ transform: translateY(-5px);
+   transition: 100ms;
+
+}
