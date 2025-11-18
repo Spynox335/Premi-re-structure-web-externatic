@@ -45,6 +45,7 @@ justify-content: center;
   padding: 5px 10px;
   border-radius: 8px;
   margin: 0px 10px;
+  justify-self: right;
 }
 
 .details h2{
