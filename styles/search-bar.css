@@ -4,5 +4,7 @@ h1{
 }
 
 div{
-    background-color: aqua;
+    background-color: hwb(180 0% 0%);
+    border-style:solid;
+    border-width: medium;
 }
