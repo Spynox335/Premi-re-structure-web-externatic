@@ -18,6 +18,9 @@ justify-content: center;
  gap: 10px;
 }
 .details {
+  display: flex;
+  flex-direction: column;
+
   background-color: #182634;
  padding: 18px 16px;
  border-radius: 6px;
@@ -26,6 +29,22 @@ justify-content: center;
    height: 50%;
    width: 35%;
 
+}
+
+.details .details-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+
+}
+
+.Tag{
+  background-color: #0641796f;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin: 0px 10px;
 }
 
 .details h2{
