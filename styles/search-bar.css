@@ -20,7 +20,21 @@ hr{
 }
 
 .search-bar {
-    background-color: hwb(180 0% 0%);
-    border-style:solid;
-    border-width: medium;
+    background-color: #182634;
+   padding: 5px 10px;
+
+}
+
+.search-bar input[type=text]
+{
+    color: white;
+    background-color: #182634;
+   
+}
+
+.search-bar input
+{
+    outline: none;
+    border: none;
+   
 }
