@@ -32,13 +32,27 @@ justify-content: center;
 
 }
 
-.Tag{
+
+.Tags {
+  display: flex;
+  flex-direction: row;
+}
+.MainTag{
   background-color: #0641796f;
   padding: 5px 10px;
   border-radius: 8px;
   margin: 0px 10px;
   justify-self: right;
 }
+.SecondTag{
+  background-color: #6a79066f;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin: 0px 10px;
+  justify-self: right;
+}
+
+
 
 .details h2{
   margin: 10px 0px;
