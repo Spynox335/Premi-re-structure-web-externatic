@@ -1,60 +1,85 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>Carte des technologies</title>
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/stations.css">
-        <link rel="stylesheet" href="styles/tech.css" />
-            <link rel="stylesheet" href="styles/details.css" />
+    <link rel="stylesheet" href="styles/tech.css" />
+    <link rel="stylesheet" href="styles/details.css" />
+    <link rel="stylesheet" href="styles/search-bar.css" />
 
 
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <h1>Carte des technologies</h1>
+        <nav>
+            <ul>
+                <h1>Carte des technologies</h1>
+                <div class="search-bar">
+                    <form>
+                     <input type="text">	
+                    <input type="button">Chercher</form>
+                    </form>
+
+                  
+                  </div>
+
+            </ul>
+
+
+        </nav>
+
     </header>
     <h1>types de Dev</h1>
-<ul> 
-    <nav>
-        <li>Front-end</li>
-        <li>Back-end</li>
-        <li>DevOps</li>
-        <li>Dev full-stack</li>
-        <li>Dev IA</li>
-        <li>Dev Data</li>
-        <li>Dev Quant</li>
+    <ul class="listes">
+        <nav>
+            <li>Front-end</li>
+            <li>Back-end</li>
+            <li>DevOps</li>
+            <li>Dev full-stack</li>
+            <li>Dev IA</li>
+            <li>Dev Data</li>
+            <li>Dev Quant</li>
 
-    </nav>
-</ul>
+        </nav>
+    </ul>
     <main>
-<div class="tech-list">
- <div class="tech">React</div>
- <div class="tech">Vue.js</div>
- <div class="tech">Angular</div>
- <div class="tech">Docker</div>
- <div class="tech">Kubernetes</div>
-</div>          </main>
-<div class="details-list">
- <div class="details">
-  <div class="details-header">
-    <h2>React</h2>
-    <div class="Tags">
-      <div class="MainTag"><p>JavaScript</p></div>
-       <div class="SecondTag"><p>Framework</p></div>
+        <div class="tech-list">
+            <div class="tech">React</div>
+            <div class="tech">Vue.js</div>
+            <div class="tech">Angular</div>
+            <div class="tech">Docker</div>
+            <div class="tech">Kubernetes</div>
+        </div>
+    </main>
+    <div class="details-list">
+        <div class="details">
+            <div class="details-header">
+                <h2>React</h2>
+                <div class="Tags">
+                    <div class="MainTag">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="SecondTag">
+                        <p>Framework</p>
+                    </div>
 
+                </div>
+
+
+            </div>
+
+            <h4>Librairie JavaScript pour construire des interfaces utilisateur</h4>
+            <p>Création de composants, rendu UI, gestion de l’état local</p>
+
+
+
+        </div>
     </div>
-    
-
-  </div>
-  
-    <h4>Librairie JavaScript pour construire des interfaces utilisateur</h4>
-    <p>Création de composants, rendu UI, gestion de l’état local</p>
-
-
-
- </div>
-</div>      
     <script src="scripts/main.js" defer></script>
-  </body>
+</body>
+
 </html>

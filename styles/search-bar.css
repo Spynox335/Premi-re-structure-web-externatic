@@ -1,9 +1,9 @@
-h1{
+.search-bar h1{
     color:black;
     padding-left: 40%;
 }
 
-div{
+.search-bar {
     background-color: hwb(180 0% 0%);
     border-style:solid;
     border-width: medium;

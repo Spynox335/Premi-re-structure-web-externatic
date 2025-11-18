@@ -1,8 +1,6 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-li{
+
+.listes nav li{
     background-color:rgb(10, 10, 156);
     color: rgb(243, 246, 248);
     text-align:justify;
@@ -11,7 +9,7 @@ li{
     flex-direction: row;
 
 }
-ul{
+.listes ul{
     background-color: rgb(112, 171, 223);
     margin: auto;
 }
