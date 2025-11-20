@@ -10,7 +10,7 @@ const lis = document.querySelectorAll("ul li");
         console.log("DTFGHFH");
         bool = false;
       } else {
-        li.style.backgroundColor = "blue";
+        li.style.backgroundColor = "#182634";
         bool = true;
       }
 

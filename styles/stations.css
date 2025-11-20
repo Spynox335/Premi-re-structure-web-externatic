@@ -1,11 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background:#f2f2f2;
+    background:#101922;
     padding:20px;
+    color:white);
 }
 
 ul li{
-    background-color:rgb(10, 10, 156);
+    background-color:#182634;
     color: rgb(245, 246, 250);
     text-align:justify;
     font: size 1.2rem;
@@ -13,7 +14,10 @@ ul li{
     flex-direction: row;
     cursor: pointer;
     list-style:none;
-    padding: 10px;
+    padding: 10px 16px;
+    order: 1px solid #223649;
+    border: 1px solid #223649;
+
 
 }
 ul{
@@ -24,4 +28,15 @@ ul{
 h1{
     text-align: center;
     background-color: rgb(3, 3, 245);
+
+}
+tech:hover {
+ transform: translateY(-5px);
+   transition: 100ms;
+   color: white;
+
+}
+body{
+    background-color: #101922;
+    color: white;
 }
