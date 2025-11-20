@@ -1,15 +1,34 @@
 
 
-.listes nav li{
-    background-color:rgb(10, 10, 156);
-    color: rgb(243, 246, 248);
+ul li{
+    background-color:#182634;
+    color: rgb(245, 246, 250);
     text-align:justify;
     font: size 1.2rem;
-    margin:40px;
+    margin:10px 0;
     flex-direction: row;
+    cursor: pointer;
+    list-style:none;
+    padding: 10px 16px;
+    order: 1px solid #223649;
+    border: 1px solid #223649;
+
 
 }
-.listes ul{
-    background-color: rgb(112, 171, 223);
+ul{
+    background-color: rgb(195, 208, 220);
     margin: auto;
+    padding:0;
 }
+h1{
+    text-align: center;
+    background-color: rgb(3, 3, 245);
+
+}
+tech:hover {
+ transform: translateY(-5px);
+   transition: 100ms;
+   color: white;
+
+}
+
