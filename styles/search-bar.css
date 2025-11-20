@@ -1,0 +1,40 @@
+header {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto 0px  auto;
+}
+
+hr{
+    width: 75%;
+   margin: 5px auto  ;
+  border: 1px solid #ffffff10;
+}
+
+.search-bar h1{
+    color:black;
+    padding-left: 40%;
+}
+
+.search-bar {
+    background-color: #182634;
+   padding: 5px 10px;
+
+}
+
+.search-bar input[type=text]
+{
+    color: white;
+    background-color: #182634;
+   
+}
+
+.search-bar input
+{
+    outline: none;
+    border: none;
+   
+}
