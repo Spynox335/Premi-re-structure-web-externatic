@@ -40,8 +40,8 @@ const AddNewCardDesc = (Data,Name) => {
 
             </div>
 
-            <h4>${Data.Description}</h4>
-            <p>${Data.Utility}</p>
+            <h4>${Data.Description||"N/A"}</h4>
+            <p>${Data.Utility||"N/A"}</p>
           </div>`
           Cards_Tech_Desc.insertAdjacentHTML("beforeend",Card)
 
