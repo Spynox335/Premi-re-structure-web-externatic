@@ -3,6 +3,8 @@ let ConfigJson = undefined
 const Searchbar = document.querySelector("#search-bar-input")
 
 const TechList = document.querySelector(".tech-list")
+const Cards_Tech_Desc = document.querySelector(".details-list")
+
 
 const  GetJsonFile = async () => {
     
@@ -11,6 +13,47 @@ const  GetJsonFile = async () => {
      return data
 
 };
+
+// "Angular.js": {
+//     "MainCategory": "Front-End",
+//     "SubCategory": "Dev",
+//     "MainTag": "Javascript",
+//     "OthersTags": ["Framework"],
+//     "Description": "Ancienne version d’Angular, basée uniquement sur JavaScript",
+//     "Utility": "Développer des applications web avec architecture MVC"
+//   },
+
+const AddNewCardDesc = (Data,Name) => {
+    const Card = ` <div class="details">
+            <div class="details-header">
+                <h2>${Name}</h2>
+                <div class="Tags">
+                    <div class="MainTag">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="SecondTag">
+                        <p>Framework</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <h4>${Data.Description}</h4>
+            <p>${Data.Utility}</p>
+          </div>`
+          Cards_Tech_Desc.insertAdjacentHTML("beforeend",Card)
+
+}
+
+const InitInfoCards = () => {
+        Cards_Tech_Desc.innerHTML = ''
+        for (const [key, value] of Object.entries(ConfigJson)) {
+             AddNewCardDesc(value,key)
+        }
+
+}
 
 const CreateTemplateCardsTech = (Name) => {
            const Tech =   `<div class="tech">${Name}</div>`
@@ -42,6 +85,7 @@ const GetSearchBar = () => {
    ConfigJson = await GetJsonFile();
 
 GetSearchBar()
+InitInfoCards()
   Searchbar.addEventListener("input",(event)=>{
         GetSearchBar()
     })
