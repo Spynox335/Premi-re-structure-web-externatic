@@ -13,7 +13,6 @@ const  GetJsonFile = async () => {
 };
 
 const CreateTemplateCardsTech = (Name) => {
-            const test = ['dd','dd']
            const Tech =   `<div class="tech">${Name}</div>`
            TechList.insertAdjacentHTML('beforeend',Tech)
 
@@ -28,16 +27,14 @@ function filterObject(obj, callback) {
 const GetSearchBar = () => {
     const Value = Searchbar.value
     let FinalData = {}
-    let NewData = Searchbar.value === "" && ConfigJson["Front-End"].Dev || filterObject( ConfigJson["Front-End"].Dev,(Data,key) => key.toLowerCase().includes(Value.toLowerCase())) 
+    let NewData = Searchbar.value === "" && ConfigJson || filterObject( ConfigJson,(Data,key) => key.toLowerCase().includes(Value.toLowerCase())) 
 
     TechList.innerHTML = ""
-     for (const [key, value] of Object.entries(ConfigJson)) {
-        console.log(key,value)
-    }
+    
     for (const [key, value] of Object.entries(NewData)) {
          CreateTemplateCardsTech(key)
     }
-         console.log(NewData)
+
 
 }
 

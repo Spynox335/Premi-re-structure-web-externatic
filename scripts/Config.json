@@ -1,150 +1,192 @@
 {
-  "Front-End": {
-    "Dev": {
-      "Angular": {
-        "MainTag": "Javascript",
-        "OthersTags": ["Framework"],
-        "Description": "Framework front-end complet basé sur TypeScript",
-        "Utility": "Créer des applications web structurées et modulaires"
-      },
-      "Angular.js": {
-        "MainTag": "Javascript",
-        "OthersTags": ["Framework"],
-        "Description": "Ancienne version d’Angular, basée uniquement sur JavaScript",
-        "Utility": "Développer des applications web avec architecture MVC"
-      },
-      "Ember": {
-        "MainTag": "Javascript",
-        "OthersTags": ["Framework"],
-        "Description": "Framework full-stack côté client",
-        "Utility": "Créer des applications SPA robustes"
-      },
-      "React.js": {
-        "MainTag": "Javascript",
-        "OthersTags": ["Framework"],
-        "Description": "Bibliothèque UI basée sur des composants",
-        "Utility": "Construire des interfaces réactives et dynamiques"
-      },
-      "JSF/Jakarta faces": {
-        "MainTag": "Javascript",
-        "OthersTags": ["Framework"],
-        "Description": "Framework Java pour interfaces web côté serveur",
-        "Utility": "Générer des pages web via composants serveur"
-      },
-      "Vue.js": {
-        "MainTag": "Javascript",
-        "OthersTags": ["Framework"],
-        "Description": "Framework progressif basé sur des composants",
-        "Utility": "Créer des interfaces réactives, facile à apprendre"
-      },
-      "Svelte": {
-        "MainTag": "Javascript",
-        "OthersTags": ["Framework"],
-        "Description": "Framework qui compile le code au build",
-        "Utility": "Produire des apps ultra-performantes sans runtime"
-      },
-      "Backbone.js": {
-        "MainTag": "Javascript",
-        "OthersTags": ["Framework"],
-        "Description": "Framework léger basé sur MVC",
-        "Utility": "Structurer des applications web simples"
-      },
-      "Vanilla.js": {
-        "MainTag": "Javascript",
-        "OthersTags": ["Framework"],
-        "Description": "JavaScript pur sans framework",
-        "Utility": "Développer sans dépendances externes"
-      },
+  "Angular": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "Javascript",
+    "OthersTags": ["Framework"],
+    "Description": "Framework front-end complet basé sur TypeScript",
+    "Utility": "Créer des applications web structurées et modulaires"
+  },
+  "Angular.js": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "Javascript",
+    "OthersTags": ["Framework"],
+    "Description": "Ancienne version d’Angular, basée uniquement sur JavaScript",
+    "Utility": "Développer des applications web avec architecture MVC"
+  },
+  "Ember": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "Javascript",
+    "OthersTags": ["Framework"],
+    "Description": "Framework full-stack côté client",
+    "Utility": "Créer des applications SPA robustes"
+  },
+  "React.js": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "Javascript",
+    "OthersTags": ["Framework"],
+    "Description": "Bibliothèque UI basée sur des composants",
+    "Utility": "Construire des interfaces réactives et dynamiques"
+  },
+  "JSF/Jakarta faces": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "Javascript",
+    "OthersTags": ["Framework"],
+    "Description": "Framework Java pour interfaces web côté serveur",
+    "Utility": "Générer des pages web via composants serveur"
+  },
+  "Vue.js": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "Javascript",
+    "OthersTags": ["Framework"],
+    "Description": "Framework progressif basé sur des composants",
+    "Utility": "Créer des interfaces réactives, facile à apprendre"
+  },
+  "Svelte": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "Javascript",
+    "OthersTags": ["Framework"],
+    "Description": "Framework qui compile le code au build",
+    "Utility": "Produire des apps ultra-performantes sans runtime"
+  },
+  "Backbone.js": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "Javascript",
+    "OthersTags": ["Framework"],
+    "Description": "Framework léger basé sur MVC",
+    "Utility": "Structurer des applications web simples"
+  },
+  "Vanilla.js": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "Javascript",
+    "OthersTags": ["Framework"],
+    "Description": "JavaScript pur sans framework",
+    "Utility": "Développer sans dépendances externes"
+  },
 
-      "Bootstrap": {
-        "MainTag": ["CSS", "HTML"],
-        "OthersTags": ["Framework"],
-        "Description": "Framework CSS populaire basé sur des composants",
-        "Utility": "Créer des interfaces responsive rapidement"
-      },
-      "Foundation": {
-        "MainTag": ["CSS", "HTML"],
-        "OthersTags": ["Framework"],
-        "Description": "Framework CSS avancé utilisé par des entreprises",
-        "Utility": "Développer des sites responsives professionnels"
-      },
-      "Less": {
-        "MainTag": "CSS",
-        "OthersTags": ["Framework"],
-        "Description": "Préprocesseur CSS basé sur JavaScript",
-        "Utility": "Ajouter des variables et fonctions au CSS"
-      },
-      "Sass": {
-        "MainTag": "CSS",
-        "OthersTags": ["Framework"],
-        "Description": "Préprocesseur CSS très répandu",
-        "Utility": "Structurer et optimiser les feuilles de style"
-      },
+  "Bootstrap": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": ["CSS", "HTML"],
+    "OthersTags": ["Framework"],
+    "Description": "Framework CSS populaire basé sur des composants",
+    "Utility": "Créer des interfaces responsive rapidement"
+  },
+  "Foundation": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": ["CSS", "HTML"],
+    "OthersTags": ["Framework"],
+    "Description": "Framework CSS avancé utilisé par des entreprises",
+    "Utility": "Développer des sites responsives professionnels"
+  },
+  "Less": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "CSS",
+    "OthersTags": ["Framework"],
+    "Description": "Préprocesseur CSS basé sur JavaScript",
+    "Utility": "Ajouter des variables et fonctions au CSS"
+  },
+  "Sass": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "CSS",
+    "OthersTags": ["Framework"],
+    "Description": "Préprocesseur CSS très répandu",
+    "Utility": "Structurer et optimiser les feuilles de style"
+  },
 
-      "GWT": {
-        "MainTag": "JAVA",
-        "Description": "Framework Google compilant Java en JavaScript",
-        "Utility": "Créer des interfaces web sans écrire JavaScript"
-      },
-      "JSF": {
-        "MainTag": "JAVA",
-        "Description": "Framework Java côté serveur",
-        "Utility": "Générer des pages web basées sur des composants"
-      },
-      "Java FX": {
-        "MainTag": "JAVA",
-        "Description": "Framework UI Java moderne",
-        "Utility": "Créer des interfaces desktop et embarquées"
-      },
-      "Vaadin": {
-        "MainTag": "JAVA",
-        "Description": "Framework Java full-stack orienté UI",
-        "Utility": "Développer des apps web sans JavaScript"
-      },
+  "GWT": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "JAVA",
+    "Description": "Framework Google compilant Java en JavaScript",
+    "Utility": "Créer des interfaces web sans écrire JavaScript"
+  },
+  "JSF": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "JAVA",
+    "Description": "Framework Java côté serveur",
+    "Utility": "Générer des pages web basées sur des composants"
+  },
+  "Java FX": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "JAVA",
+    "Description": "Framework UI Java moderne",
+    "Utility": "Créer des interfaces desktop et embarquées"
+  },
+  "Vaadin": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "JAVA",
+    "Description": "Framework Java full-stack orienté UI",
+    "Utility": "Développer des apps web sans JavaScript"
+  },
 
-      "Blazor": {
-        "MainTag": "C#",
-        "Description": "Framework .NET pour apps web côté client",
-        "Utility": "Créer du front en C# compilé en WebAssembly"
-      },
+  "Blazor": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "MainTag": "C#",
+    "Description": "Framework .NET pour apps web côté client",
+    "Utility": "Créer du front en C# compilé en WebAssembly"
+  },
 
-      "Elm": {
-        "Description": "Langage fonctionnel compilé en JavaScript",
-        "Utility": "Créer des applications web robustes sans bugs"
-      }
-    },
+  "Elm": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Dev",
+    "Description": "Langage fonctionnel compilé en JavaScript",
+    "Utility": "Créer des applications web robustes sans bugs"
+  },
 
-    "Design": {
-      "Figma": {
-        "MainTag": ["UX/UI designer"],
-        "OthersTags": ["Wireframes"],
-        "Description": "Outil de design collaboratif en ligne",
-        "Utility": "Créer maquettes, prototypes et systèmes de design"
-      },
-      "Adobe XD": {
-        "MainTag": ["UX/UI designer"],
-        "OthersTags": ["Wireframes"],
-        "Description": "Outil Adobe pour design d’interfaces",
-        "Utility": "Créer maquettes et prototypes animés"
-      },
-      "Balsamiq": {
-        "MainTag": ["UX/UI designer"],
-        "OthersTags": ["Wireframes"],
-        "Description": "Logiciel de wireframing basique",
-        "Utility": "Faire des maquettes rapides et simples"
-      },
-      "Sketch": {
-        "MainTag": ["UX/UI designer"],
-        "OthersTags": ["Wireframes"],
-        "Description": "Outil de design vectoriel Mac",
-        "Utility": "Créer maquettes et composants UI"
-      },
-      "InVision": {
-        "MainTag": ["UX/UI designer"],
-        "OthersTags": ["Wireframes"],
-        "Description": "Plateforme de prototypage interactif",
-        "Utility": "Créer prototypes cliquables et workflows"
-      }
-    }
+  "Figma": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Design",
+    "MainTag": ["UX/UI designer"],
+    "OthersTags": ["Wireframes"],
+    "Description": "Outil de design collaboratif en ligne",
+    "Utility": "Créer maquettes, prototypes et systèmes de design"
+  },
+  "Adobe XD": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Design",
+    "MainTag": ["UX/UI designer"],
+    "OthersTags": ["Wireframes"],
+    "Description": "Outil Adobe pour design d’interfaces",
+    "Utility": "Créer maquettes et prototypes animés"
+  },
+  "Balsamiq": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Design",
+    "MainTag": ["UX/UI designer"],
+    "OthersTags": ["Wireframes"],
+    "Description": "Logiciel de wireframing basique",
+    "Utility": "Faire des maquettes rapides et simples"
+  },
+  "Sketch": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Design",
+    "MainTag": ["UX/UI designer"],
+    "OthersTags": ["Wireframes"],
+    "Description": "Outil de design vectoriel Mac",
+    "Utility": "Créer maquettes et composants UI"
+  },
+  "InVision": {
+    "MainCategory": "Front-End",
+    "SubCategory": "Design",
+    "MainTag": ["UX/UI designer"],
+    "OthersTags": ["Wireframes"],
+    "Description": "Plateforme de prototypage interactif",
+    "Utility": "Créer prototypes cliquables et workflows"
   }
 }
