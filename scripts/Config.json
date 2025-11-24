@@ -188,5 +188,559 @@
     "OthersTags": ["Wireframes"],
     "Description": "Plateforme de prototypage interactif",
     "Utility": "Créer prototypes cliquables et workflows"
+  },
+    "Nginx": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-Web"
+  },
+    "Apache": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-Web"
+  },
+    "Caddy": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-Web"
+  },
+  "Websphere": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-d'application-Linux",
+    "MainTag": "Java"
+  },
+  "Weblogic": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-d'application-Linux",
+    "MainTag": "Java"
+  },
+  "Wildfly": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-d'application-Linux",
+    "MainTag": "Java"
+  },
+  "wildflyTomcat/Apache": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-d'application-Linux",
+    "MainTag": "Java"
+  },
+  "Glassfish": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-d'application-Linux",
+    "MainTag": "Java"
+  },
+  "XAMPP": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-d'application-Linux",
+    "MainTag": "PHP"
+  },
+   "WAMP-Server": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-d'application-Linux",
+    "MainTag": "PHP"
+  },
+   "LAMP-Stack": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-d'application-Linux",
+    "MainTag": "PHP"
+  },
+   "LiteSpeed": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Serveur-d'application-Linux",
+    "MainTag": "PHP"
+  },
+   "Rest": {
+    "MainCategory": "Back-End",
+    "SubCategory": "API/Webservice"
+  },
+   "WS SOAP": {
+    "MainCategory": "Back-End",
+    "SubCategory": "API/Webservice"
+  },
+   "GraphQL": {
+    "MainCategory": "Back-End",
+    "SubCategory": "API/Webservice"
+  },
+   "RPC": {
+    "MainCategory": "Back-End",
+    "SubCategory": "API/Webservice"
+  },
+  "Axum": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Rust"]
+  },
+  "ActixWeb": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Rust"]
+  },
+  "Rocket": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Rust"]
+  },
+  "Django": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Python","Framework"]
+  },
+  "Flask": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Python","Framework"]
+  },
+  "Fast-API": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Python","Framework"]
+  },
+  "Tornado": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Python","Framework"]
+  },
+  "CherryPy": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Python","Framework"]
+  },
+  "Qt": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["C++"]
+  },
+  "wxWidgets": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["C++"]
+  },
+  "ImGUI": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["C++"]
+  },
+  "Ktor": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Kotlin"]
+  },
+  "Micronaut": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Kotlin","Java","Framework"]
+  },
+  "Quarkus": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Kotlin","Java","Framework"]
+  },
+  "Spring-Framework": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Kotlin"]
+  },
+  "Symfony": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["PHP","Frameworks"]
+  },
+  "Laravel": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["PHP","Frameworks"]
+  },
+  "Codelgniter": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["PHP","Frameworks"]
+  },
+  "Laminas": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["PHP","Frameworks"]
+  },
+  "CakePHP": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["PHP","Frameworks"]
+  },
+  "Yii": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["PHP","Frameworks"]
+  },
+  "Wordpress": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["PHP","CMS"]
+  },
+  "Drupal": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["PHP","CMS"]
+  },
+  "Shopify": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["PHP","CMS","CMS e-commerce"]
+  },
+  "Magento": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["PHP","CMS","CMS e-commerce"]
+  },
+  "Prestashop": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["PHP","CMS","CMS e-commerce"]
+  },
+  "Cobol (MVS)": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Langages résilients"]
+  },
+  "PRG (AS400 Iseries)": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Langages résilients"]
+  },
+  "Rails": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Ruby","Framework"]
+  },
+  "Sinatra": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Ruby","Framework"]
+  },
+  "Ramaze": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Ruby","Framework"]
+  },
+  "Hanami": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Ruby","Framework"]
+  },
+  "Roda": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Ruby","Framework"]
+  },
+  "Padrino": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Ruby","Framework"]
+  },
+  "Groovy": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java"]
+  },
+  "Jakarta": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework"]
+  },
+  "Apache Struts": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework"]
+  },
+  "Play Framework": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework"]
+  },
+  "JSF": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework"]
+  },
+  "Java FX": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework"]
+  },
+  "Spring Boot": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework","Spring"]
+  },
+  "Spring MVC": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework","Spring"]
+  },
+  "Spring Security": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework","Spring"]
+  },
+  "Spring Data": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework","Spring"]
+  },
+  "Spring Cloud": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework","Spring"]
+  },
+  "Spring Batch": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework","Spring"]
+  },
+  "Spring Session": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Java","Framework","Spring"]
+  },
+  "Gin": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Golang"]
+  },
+  "Echo": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Golang"]
+  },
+  "Beego": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Golang"]
+  },
+  "Fiber": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Golang"]
+  },
+  "Buffalo": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Golang"]
+  },
+  "Sails JS": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Node JS","Framework"]
+  },
+  "ExpressJS": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Node JS","Framework"]
+  },
+  "NestJS": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Node JS","Framework"]
+  },
+  "KoaJS": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Node JS","Framework"]
+  },
+  "HapiJS": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Node JS","Framework"]
+  },
+  "LoopbackJS": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Node JS","Framework"]
+  },
+  "MeteorJS": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Node JS","Framework"]
+  },
+  "FastifyJS": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Node JS","Framework"]
+  },
+  ".NET (.NET core)": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["C#",".net"]
+  },
+  "WPF": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["C#",".net"]
+  },
+  "ASP.net": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["C#",".net"]
+  },
+  "Blazor": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["C#",".net"]
+  },
+  "Entity Framework Core": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["C#",".net"]
+  },
+  ".Net MAUI": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["C#",".net"]
+  },
+  "Dapper": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["C#",".net","Microsoft.net"]
+  },
+  "Akka": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Scala","Framework"]
+  },
+  "Play": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Scala","Framework"]
+  },
+  "Apache Spark": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Scala","Framework"]
+  },
+  "http4s": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Scala","Framework"]
+  },
+  "ZIO": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Scala","Framework"]
+  },
+  "Cats Effect": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Scala","Framework"]
+  },
+  "Finch": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["Scala","Framework"]
+  },
+  ".net": {
+    "MainCategory": "Back-End",
+    "SubCategory": "Dev",
+    "MainTag": ["Langages-de-prog"],
+    "OthersTags": ["API/Webservice","VB.NET"]
+  },
+  
+  "Hibernate": {
+    "MainCategory": "Back-End",
+    "SubCategory": "ORM",
+    "MainTag": ["Java"]
+  },
+  "MyBatis": {
+    "MainCategory": "Back-End",
+    "SubCategory": "ORM",
+    "MainTag": ["Java"]
+  },
+  "Doctrine": {
+    "MainCategory": "Back-End",
+    "SubCategory": "ORM",
+    "MainTag": ["PHP"]
+  },
+  "Eloquent ORM": {
+    "MainCategory": "Back-End",
+    "SubCategory": "ORM",
+    "MainTag": ["PHP"]
+  },
+  "Nhibernate": {
+    "MainCategory": "Back-End",
+    "SubCategory": "ORM",
+    "MainTag": ["Microsoft.net"]
+  },
+  "Entity framework": {
+    "MainCategory": "Back-End",
+    "SubCategory": "ORM",
+    "MainTag": ["Microsoft.net"]
   }
 }
