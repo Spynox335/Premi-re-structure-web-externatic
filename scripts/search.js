@@ -80,6 +80,8 @@ const InitCategories = () => {
                 li.innerText = value.MainCategory
                 li.addEventListener("click",(event)=>{
                     ChoosedCategory = value.MainCategory
+                    GetSearchBar()
+
                 })
                 ListesCat.appendChild(li)
 
@@ -91,7 +93,7 @@ const InitCategories = () => {
 const GetSearchBar = () => {
     const Value = Searchbar.value
     let FinalData = {}
-    let NewData = Searchbar.value === "" && ConfigJson || filterObject( ConfigJson,(Data,key) =>  ChoosedCategory == "" &&  key.toLowerCase().includes(Value.toLowerCase()) || ChoosedCategory == Data.MainCategory && key.toLowerCase().includes(Value.toLowerCase()) ) 
+    let NewData =  filterObject( ConfigJson,(Data,key) =>  ChoosedCategory == "" &&  key.toLowerCase().includes(Value.toLowerCase()) || ChoosedCategory == Data.MainCategory && key.toLowerCase().includes(Value.toLowerCase()) ) 
 
     TechList.innerHTML = ""
     

@@ -20,11 +20,7 @@ ul{
     margin: auto;
     padding:0;
 }
-h1{
-    text-align: center;
-    background-color: rgb(3, 3, 245);
 
-}
 tech:hover {
  transform: translateY(-5px);
    transition: 100ms;
