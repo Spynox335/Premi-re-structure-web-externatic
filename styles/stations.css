@@ -1,7 +1,8 @@
 
 
 ul li{
-    background-color:#182634;
+    background-color:#0a2037ff;
+    
     color: rgb(245, 246, 250);
     margin:10px 0;
     flex-direction: row;
@@ -21,6 +22,5 @@ ul{
 .Center-Text {
     text-align: center;
 }
-
 
 

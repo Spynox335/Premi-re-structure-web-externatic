@@ -71,3 +71,16 @@ justify-content: center;
    transition: 100ms;
 
 }
+
+
+ @media only screen and (max-width: 650px) {
+
+.details {
+  width: 90%;
+  height: 50%;
+}
+.tech {
+  font-size: 2em;
+}
+
+ }

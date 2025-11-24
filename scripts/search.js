@@ -114,12 +114,11 @@ const InitCategories = () => {
                 li.innerText = value.MainCategory
                 li.addEventListener("click",(event)=>{
                     if(Choosed!==undefined){ // si la variable choose "existe" alors
-                    Choosed.style.background = "#182634" // mettre la couleur de base 
-
+                     Choosed.style.background=  "#0e1c2a" // mettre la couleur de base 
                     }
                     Choosed = li
-                    li.style.background = "#0e1c2a" // mettre la couleur pour montrer que on a choisis cette categorie la
-
+                   li.style.background = "#0a2037ff"
+                     // mettre la couleur pour montrer que on a choisis cette categorie la
                     ChoosedCategory = value.MainCategory
                     GetSearchBar()
 
