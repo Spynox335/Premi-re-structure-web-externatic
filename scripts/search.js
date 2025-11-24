@@ -1,4 +1,5 @@
 import { ListChanged } from "./main.js";
+import { To , Reset,Hide} from "./Cards.js";
 
 
 
@@ -104,6 +105,7 @@ function filterObject(obj, callback) {                                          
 
 const InitCategories = () => {
      const Categories = []
+     let Choosed = undefined
      const ListesCat = document.querySelector(".listes").children[0]
       for (const [key, value] of Object.entries(ConfigJson)) {
          if (!Categories.includes(value.MainCategory)) {
@@ -111,6 +113,13 @@ const InitCategories = () => {
                 const li = document.createElement("li")
                 li.innerText = value.MainCategory
                 li.addEventListener("click",(event)=>{
+                    if(Choosed!==undefined){ // si la variable choose "existe" alors
+                    Choosed.style.background = "#182634" // mettre la couleur de base 
+
+                    }
+                    Choosed = li
+                    li.style.background = "#0e1c2a" // mettre la couleur pour montrer que on a choisis cette categorie la
+
                     ChoosedCategory = value.MainCategory
                     GetSearchBar()
 
@@ -145,6 +154,9 @@ const GetSearchBar = () => {
 GetSearchBar() // Call de fct
 InitInfoCards()
 InitCategories()
+Hide()
+To ("RPC")
+Reset()
   Searchbar.addEventListener("input",(event)=>{ // Quand qlq ecrit dans la search bar , il appelle la fct searchbar
         GetSearchBar()
     })

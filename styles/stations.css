@@ -3,28 +3,24 @@
 ul li{
     background-color:#182634;
     color: rgb(245, 246, 250);
-    text-align:justify;
-    font: size 1.2rem;
     margin:10px 0;
     flex-direction: row;
     cursor: pointer;
     list-style:none;
     padding: 10px 16px;
-    order: 1px solid #223649;
     border: 1px solid #223649;
 
 
 }
+
 ul{
-    background-color: rgb(195, 208, 220);
     margin: auto;
-    padding:0;
+    padding:10px;
 }
 
-tech:hover {
- transform: translateY(-5px);
-   transition: 100ms;
-   color: white;
-
+.Center-Text {
+    text-align: center;
 }
+
+
 
