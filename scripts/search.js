@@ -104,6 +104,7 @@ function filterObject(obj, callback) {                                          
 
 const InitCategories = () => {
      const Categories = []
+     let Choosed = undefined
      const ListesCat = document.querySelector(".listes").children[0]
       for (const [key, value] of Object.entries(ConfigJson)) {
          if (!Categories.includes(value.MainCategory)) {
@@ -111,6 +112,13 @@ const InitCategories = () => {
                 const li = document.createElement("li")
                 li.innerText = value.MainCategory
                 li.addEventListener("click",(event)=>{
+                    if(Choosed!==undefined){
+                    Choosed.style.background = "#182634"
+
+                    }
+                    Choosed = li
+                    li.style.background = "#0e1c2a"
+
                     ChoosedCategory = value.MainCategory
                     GetSearchBar()
 
