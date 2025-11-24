@@ -191,262 +191,356 @@
   },
     "Nginx": {
     "MainCategory": "Back-End",
-    "SubCategory": "Serveur-Web"
+    "SubCategory": "Serveur-Web",
+    "Description": "Serveur web et reverse proxy très performant conçu pour gérer un grand nombre de connexions simultanées.",
+    "Utility": "Servir des sites web, faire du load balancing, reverse proxy et gérer des requêtes à haute performance."
   },
-    "Apache": {
+  "Apache": {
     "MainCategory": "Back-End",
-    "SubCategory": "Serveur-Web"
+    "SubCategory": "Serveur-Web",
+    "Description": "Serveur web historique, hautement configurable grâce à son système de modules.",
+    "Utility": "Héberger des sites web dynamiques, gérer les configurations via .htaccess et supporter de nombreux modules."
   },
-    "Caddy": {
+  "Caddy": {
     "MainCategory": "Back-End",
-    "SubCategory": "Serveur-Web"
+    "SubCategory": "Serveur-Web",
+    "Description": "Serveur web moderne avec gestion automatique du HTTPS via Let's Encrypt.",
+    "Utility": "Déployer facilement des sites sécurisés grâce à une configuration simple et un HTTPS automatique."
   },
   "Websphere": {
     "MainCategory": "Back-End",
     "SubCategory": "Serveur-d'application-Linux",
-    "MainTag": "Java"
+    "MainTag": "Java",
+    "Description": "Serveur d'applications Java d'entreprise développé par IBM.",
+    "Utility": "Déployer et gérer des applications Java EE à grande échelle pour environnements professionnels."
   },
   "Weblogic": {
     "MainCategory": "Back-End",
     "SubCategory": "Serveur-d'application-Linux",
-    "MainTag": "Java"
+    "MainTag": "Java",
+    "Description": "Serveur d'applications Java EE développé par Oracle.",
+    "Utility": "Gérer et exécuter des applications Java d'entreprise avec hautes performances et outils intégrés."
   },
   "Wildfly": {
     "MainCategory": "Back-End",
     "SubCategory": "Serveur-d'application-Linux",
-    "MainTag": "Java"
+    "MainTag": "Java",
+    "Description": "Serveur d'application Java open source léger et modulable.",
+    "Utility": "Déployer des applications Jakarta EE avec une architecture rapide et flexible."
   },
   "wildflyTomcat/Apache": {
     "MainCategory": "Back-End",
     "SubCategory": "Serveur-d'application-Linux",
-    "MainTag": "Java"
+    "MainTag": "Java",
+    "Description": "Environnement combinant Tomcat/Apache et Wildfly pour exécuter des applications Java avec support servlet et modules.",
+    "Utility": "Fournir un serveur hybride pour héberger des applications Java EE et des services web."
   },
   "Glassfish": {
     "MainCategory": "Back-End",
     "SubCategory": "Serveur-d'application-Linux",
-    "MainTag": "Java"
+    "MainTag": "Java",
+    "Description": "Serveur d'application officiel pour Jakarta EE, open source.",
+    "Utility": "Développer et déployer des applications Java EE dans un environnement conforme aux standards."
   },
   "XAMPP": {
     "MainCategory": "Back-End",
     "SubCategory": "Serveur-d'application-Linux",
-    "MainTag": "PHP"
+    "MainTag": "PHP",
+    "Description": "Environnement de développement local regroupant Apache, MySQL, PHP et Perl.",
+    "Utility": "Tester et développer des projets PHP localement facilement."
   },
-   "WAMP-Server": {
+  "WAMP-Server": {
     "MainCategory": "Back-End",
     "SubCategory": "Serveur-d'application-Linux",
-    "MainTag": "PHP"
+    "MainTag": "PHP",
+    "Description": "Stack Windows regroupant Apache, MySQL et PHP.",
+    "Utility": "Développer des projets PHP sur Windows avec un environnement complet local."
   },
-   "LAMP-Stack": {
+  "LAMP-Stack": {
     "MainCategory": "Back-End",
     "SubCategory": "Serveur-d'application-Linux",
-    "MainTag": "PHP"
+    "MainTag": "PHP",
+    "Description": "Stack Linux combinant Apache, MySQL et PHP pour le web.",
+    "Utility": "Héberger des projets PHP sur serveurs Linux avec une architecture robuste."
   },
-   "LiteSpeed": {
+  "LiteSpeed": {
     "MainCategory": "Back-End",
     "SubCategory": "Serveur-d'application-Linux",
-    "MainTag": "PHP"
+    "MainTag": "PHP",
+    "Description": "Serveur web ultra performant compatible avec Apache.",
+    "Utility": "Accélérer les performances des sites PHP grâce à un moteur optimisé."
   },
-   "Rest": {
+  "Rest": {
     "MainCategory": "Back-End",
-    "SubCategory": "API/Webservice"
+    "SubCategory": "API/Webservice",
+    "Description": "Style d’architecture d’API basé sur HTTP et les ressources.",
+    "Utility": "Créer des APIs simples, flexibles et compatibles avec tous les clients web."
   },
-   "WS SOAP": {
+  "WS SOAP": {
     "MainCategory": "Back-End",
-    "SubCategory": "API/Webservice"
+    "SubCategory": "API/Webservice",
+    "Description": "Protocole d’échange de données structuré utilisant XML.",
+    "Utility": "Construire des webservices fiables et strictement typés pour applications d’entreprise."
   },
-   "GraphQL": {
+  "GraphQL": {
     "MainCategory": "Back-End",
-    "SubCategory": "API/Webservice"
+    "SubCategory": "API/Webservice",
+    "Description": "Langage de requête pour API permettant aux clients de demander exactement les données nécessaires.",
+    "Utility": "Créer des APIs flexibles et optimisées avec un seul endpoint et des réponses adaptées."
   },
-   "RPC": {
+  "RPC": {
     "MainCategory": "Back-End",
-    "SubCategory": "API/Webservice"
+    "SubCategory": "API/Webservice",
+    "Description": "Méthode de communication permettant d’appeler des fonctions distantes comme si elles étaient locales.",
+    "Utility": "Créer des APIs très rapides et orientées procédures."
   },
   "Axum": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Rust"]
+    "OthersTags": ["Rust"],
+    "Description": "Framework web moderne basé sur Tokio pour Rust.",
+    "Utility": "Développer des APIs performantes et sûres en Rust."
   },
   "ActixWeb": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Rust"]
+    "OthersTags": ["Rust"],
+    "Description": "Framework web Rust basé sur Actix et orienté haute performance.",
+    "Utility": "Créer des serveurs web ultra rapides avec un minimum d’overhead."
   },
-  "Rocket": {
+   "Rocket": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Rust"]
+    "OthersTags": ["Rust"],
+    "Description": "Framework web Rust simple et sécurisé basé sur des macros et une syntaxe expressive.",
+    "Utility": "Créer rapidement des APIs sûres avec une ergonomie simplifiée."
   },
   "Django": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Python","Framework"]
+    "OthersTags": ["Python","Framework"],
+    "Description": "Framework Python complet basé sur MVC avec un ORM intégré.",
+    "Utility": "Développer des applications web robustes et sécurisées rapidement."
   },
   "Flask": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Python","Framework"]
+    "OthersTags": ["Python","Framework"],
+    "Description": "Micro-framework Python minimaliste pour APIs légères.",
+    "Utility": "Créer des services web flexibles et rapides avec peu de configuration."
   },
   "Fast-API": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Python","Framework"]
+    "OthersTags": ["Python","Framework"],
+    "Description": "Framework Python moderne basé sur ASGI, très rapide et typé.",
+    "Utility": "Construire des APIs performantes avec validation automatique et documentation intégrée."
   },
   "Tornado": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Python","Framework"]
+    "OthersTags": ["Python","Framework"],
+    "Description": "Framework Python asynchrone conçu pour gérer un grand nombre de connexions.",
+    "Utility": "Développer des serveurs webs en temps réel avec WebSockets et I/O non bloquantes."
   },
   "CherryPy": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Python","Framework"]
+    "OthersTags": ["Python","Framework"],
+    "Description": "Framework Python minimaliste orienté simplicité.",
+    "Utility": "Créer rapidement des API ou services web en conservant une structure légère."
   },
   "Qt": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["C++"]
+    "OthersTags": ["C++"],
+    "Description": "Framework C++ pour interfaces graphiques multi-plateformes.",
+    "Utility": "Développer des applications desktop complètes et performantes."
   },
   "wxWidgets": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["C++"]
+    "OthersTags": ["C++"],
+    "Description": "Framework C++ fournissant des interfaces natives sur chaque OS.",
+    "Utility": "Créer des interfaces graphiques multiplateformes en conservant l’apparence native."
   },
   "ImGUI": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["C++"]
+    "OthersTags": ["C++"],
+    "Description": "Bibliothèque d’UI immédiate conçue pour outils et debug UI.",
+    "Utility": "Créer des interfaces dynamiques et réactives intégrées dans des applications temps réel."
   },
   "Ktor": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Kotlin"]
+    "OthersTags": ["Kotlin"],
+    "Description": "Framework Kotlin asynchrone pour serveurs web et clients HTTP.",
+    "Utility": "Créer des APIs modernes en Kotlin avec une architecture flexible."
   },
   "Micronaut": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Kotlin","Java","Framework"]
+    "OthersTags": ["Kotlin","Java","Framework"],
+    "Description": "Framework Java/Kotlin conçu pour microservices légers et rapides.",
+    "Utility": "Développer des microservices avec faible empreinte mémoire et démarrage rapide."
   },
   "Quarkus": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Kotlin","Java","Framework"]
+    "OthersTags": ["Kotlin","Java","Framework"],
+    "Description": "Framework Java natif cloud optimisé pour GraalVM.",
+    "Utility": "Créer des microservices Java ultra rapides avec temps de boot réduit."
   },
   "Spring-Framework": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Kotlin"]
+    "OthersTags": ["Kotlin"],
+    "Description": "Framework complet Java/Kotlin pour applications d'entreprise.",
+    "Utility": "Développer des applications robustes avec injection de dépendances et écosystème mature."
   },
   "Symfony": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["PHP","Frameworks"]
+    "OthersTags": ["PHP","Frameworks"],
+    "Description": "Framework PHP modulaire et orienté composants.",
+    "Utility": "Construire des applications web fiables avec une architecture claire et scalable."
   },
   "Laravel": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["PHP","Frameworks"]
+    "OthersTags": ["PHP","Frameworks"],
+    "Description": "Framework PHP moderne basé sur une syntaxe expressive.",
+    "Utility": "Créer des APIs et sites web rapidement grâce à un écosystème complet."
   },
   "Codelgniter": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["PHP","Frameworks"]
+    "OthersTags": ["PHP","Frameworks"],
+    "Description": "Framework PHP léger et rapide orienté simplicité.",
+    "Utility": "Développer des sites web avec un framework facile à prendre en main."
   },
   "Laminas": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["PHP","Frameworks"]
+    "OthersTags": ["PHP","Frameworks"],
+    "Description": "Framework PHP modulaire issu de Zend Framework.",
+    "Utility": "Créer des applications PHP robustes avec composants réutilisables."
   },
   "CakePHP": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["PHP","Frameworks"]
+    "OthersTags": ["PHP","Frameworks"],
+    "Description": "Framework PHP basé sur la convention over configuration.",
+    "Utility": "Développer rapidement sans configuration lourde."
   },
   "Yii": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["PHP","Frameworks"]
+    "OthersTags": ["PHP","Frameworks"],
+    "Description": "Framework PHP performant pour développement rapide.",
+    "Utility": "Construire des applications web évolutives avec outils intégrés."
   },
   "Wordpress": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["PHP","CMS"]
+    "OthersTags": ["PHP","CMS"],
+    "Description": "CMS PHP le plus utilisé au monde.",
+    "Utility": "Créer rapidement des sites web dynamiques et personnalisables."
   },
   "Drupal": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["PHP","CMS"]
+    "OthersTags": ["PHP","CMS"],
+    "Description": "CMS puissant et modulaire orienté sécurité et flexibilité.",
+    "Utility": "Construire des sites complexes avec gestion avancée de contenu."
   },
   "Shopify": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["PHP","CMS","CMS e-commerce"]
+    "OthersTags": ["PHP","CMS","CMS e-commerce"],
+    "Description": "Plateforme e-commerce clé en main avec écosystème d’applications.",
+    "Utility": "Créer facilement une boutique en ligne prête à l’emploi."
   },
   "Magento": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["PHP","CMS","CMS e-commerce"]
+    "OthersTags": ["PHP","CMS","CMS e-commerce"],
+    "Description": "CMS e-commerce avancé conçu pour grandes boutiques.",
+    "Utility": "Gérer des catalogues complexes et des ventes à grande échelle."
   },
   "Prestashop": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["PHP","CMS","CMS e-commerce"]
+    "OthersTags": ["PHP","CMS","CMS e-commerce"],
+    "Description": "Solution e-commerce open source populaire.",
+    "Utility": "Créer et gérer une boutique en ligne facilement extensible."
   },
   "Cobol (MVS)": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Langages résilients"]
+    "OthersTags": ["Langages résilients"],
+    "Description": "Langage historique conçu pour systèmes critiques bancaires et mainframe.",
+    "Utility": "Maintenir et développer des applications métier ultra fiables."
   },
   "PRG (AS400 Iseries)": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Langages résilients"]
+    "OthersTags": ["Langages résilients"],
+    "Description": "Langage utilisé sur les systèmes IBM AS/400.",
+    "Utility": "Développer des applications d’entreprise robustes sur systèmes iSeries."
   },
   "Rails": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Ruby","Framework"]
+    "OthersTags": ["Ruby","Framework"],
+    "Description": "Framework Ruby basé sur convention over configuration.",
+    "Utility": "Développer rapidement des applications complètes avec outils intégrés."
   },
   "Sinatra": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Ruby","Framework"]
+    "OthersTags": ["Ruby","Framework"],
+    "Description": "Micro-framework Ruby simple et léger.",
+    "Utility": "Créer des APIs et services web minimalistes."
   },
   "Ramaze": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
     "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Ruby","Framework"]
+    "OthersTags": ["Ruby","Framework"],
+    "Description": "Framework Ruby flexible et modulaire.",
+    "Utility": "Construire des applications Ruby en personnalisant entièrement la structure."
   },
   "Hanami": {
     "MainCategory": "Back-End",

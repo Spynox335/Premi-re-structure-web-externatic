@@ -1,3 +1,7 @@
+import { ListChanged } from "./main.js";
+
+
+
 let ConfigJson = undefined
 
 const Searchbar = document.querySelector("#search-bar-input")
@@ -26,16 +30,44 @@ const  GetJsonFile = async () => {
 //   },
 
 const AddNewCardDesc = (Data,Name) => {
+    let MainTags = ''
+    let OthersTags = ''
+
+
+     if (Array.isArray( Data.MainTag)) {
+        Data.MainTag.forEach((element) => {
+                MainTags +=    `<div class="MainTag">
+                        <p>${element}</p>
+                    </div>`
+        }
+       )
+    }else if (Data.MainTag != undefined) {
+         MainTags +=    `<div class="MainTag">
+                        <p>${Data.MainTag}</p>
+                    </div>`
+    }
+
+    if (Array.isArray( Data.OthersTags)) {
+        Data.OthersTags.forEach((element) => {
+                OthersTags +=    `<div class="SecondTag">
+                        <p>${element}</p>
+                    </div>`
+        }
+       )
+    }else if (Data.OthersTags != undefined) {
+         OthersTags +=    `<div class="SecondTag">
+                        <p>${Data.OthersTags}</p>
+                    </div>`
+    }
+
+
+
     const Card = ` <div class="details">
             <div class="details-header">
                 <h2>${Name}</h2>
                 <div class="Tags">
-                    <div class="MainTag">
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="SecondTag">
-                        <p>Framework</p>
-                    </div>
+                    ${MainTags}
+                   ${OthersTags}
 
                 </div>
 
@@ -101,17 +133,19 @@ const GetSearchBar = () => {
     for (const [key, value] of Object.entries(NewData)) {
          CreateTemplateCardsTech(key)
     }
+    ListChanged()
 
 
 }
 
+// Fct async car on fetch , et la function fetch est une fct async 
 (async () => {
-   ConfigJson = await GetJsonFile();
+   ConfigJson = await GetJsonFile(); // await : marche seulement sur du async , Attendre la reponse de la function 
 
-GetSearchBar()
+GetSearchBar() // Call de fct
 InitInfoCards()
 InitCategories()
-  Searchbar.addEventListener("input",(event)=>{
+  Searchbar.addEventListener("input",(event)=>{ // Quand qlq ecrit dans la search bar , il appelle la fct searchbar
         GetSearchBar()
     })
 })();
