@@ -155,8 +155,7 @@ GetSearchBar() // Call de fct
 InitInfoCards()
 InitCategories()
 Hide()
-To ("RPC")
-Reset()
+
   Searchbar.addEventListener("input",(event)=>{ // Quand qlq ecrit dans la search bar , il appelle la fct searchbar
         GetSearchBar()
     })
