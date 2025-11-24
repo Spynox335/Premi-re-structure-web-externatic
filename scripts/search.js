@@ -1,3 +1,7 @@
+import { ListChanged } from "./main.js";
+
+
+
 let ConfigJson = undefined
 
 const Searchbar = document.querySelector("#search-bar-input")
@@ -129,6 +133,7 @@ const GetSearchBar = () => {
     for (const [key, value] of Object.entries(NewData)) {
          CreateTemplateCardsTech(key)
     }
+    ListChanged()
 
 
 }
