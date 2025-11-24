@@ -8,4 +8,3 @@ buttonlist.forEach((button) => {
 });
 
 console.log(buttonlist)
-}
