@@ -5,6 +5,8 @@ const Searchbar = document.querySelector("#search-bar-input")
 const TechList = document.querySelector(".tech-list")
 const Cards_Tech_Desc = document.querySelector(".details-list")
 
+// Settings
+let ChoosedCategory = ""
 
 const  GetJsonFile = async () => {
     
@@ -62,18 +64,38 @@ const CreateTemplateCardsTech = (Name) => {
 
 }
 
-function filterObject(obj, callback) {
-  return Object.fromEntries(Object.entries(obj).
-    filter(([key, val]) => callback(val, key)));
+
+function filterObject(obj, callback) {                                                     //  Key ,    Val
+  return Object.fromEntries(Object.entries(obj). // Transforme l'objet en Array du genre : [["Angular",{...}],["Vite",{...}]]
+    filter(([key, val]) => callback(val, key))); // Array donc la fct filter fctnne , Callback : key.toLowerCase().includes(Value.toLowerCase()
+}
+
+const InitCategories = () => {
+     const Categories = []
+     const ListesCat = document.querySelector(".listes").children[0]
+      for (const [key, value] of Object.entries(ConfigJson)) {
+         if (!Categories.includes(value.MainCategory)) {
+              Categories.push(value.MainCategory)
+                const li = document.createElement("li")
+                li.innerText = value.MainCategory
+                li.addEventListener("click",(event)=>{
+                    ChoosedCategory = value.MainCategory
+                })
+                ListesCat.appendChild(li)
+
+          }
+    }
+  
 }
 
 const GetSearchBar = () => {
     const Value = Searchbar.value
     let FinalData = {}
-    let NewData = Searchbar.value === "" && ConfigJson || filterObject( ConfigJson,(Data,key) => key.toLowerCase().includes(Value.toLowerCase())) 
+    let NewData = Searchbar.value === "" && ConfigJson || filterObject( ConfigJson,(Data,key) =>  ChoosedCategory == "" &&  key.toLowerCase().includes(Value.toLowerCase()) || ChoosedCategory == Data.MainCategory && key.toLowerCase().includes(Value.toLowerCase()) ) 
 
     TechList.innerHTML = ""
     
+    // Le foreach mais pour un objet 
     for (const [key, value] of Object.entries(NewData)) {
          CreateTemplateCardsTech(key)
     }
@@ -86,6 +108,7 @@ const GetSearchBar = () => {
 
 GetSearchBar()
 InitInfoCards()
+InitCategories()
   Searchbar.addEventListener("input",(event)=>{
         GetSearchBar()
     })
