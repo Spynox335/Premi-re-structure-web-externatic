@@ -543,47 +543,62 @@
     "Utility": "Construire des applications Ruby en personnalisant entièrement la structure."
   },
   "Hanami": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Ruby","Framework"]
-  },
-  "Roda": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Ruby","Framework"]
-  },
-  "Padrino": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Ruby","Framework"]
-  },
-  "Groovy": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Java"]
-  },
-  "Jakarta": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Java","Framework"]
-  },
-  "Apache Struts": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Java","Framework"]
-  },
-  "Play Framework": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Java","Framework"]
-  },
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Ruby","Framework"],
+  "Description": "Framework Ruby moderne et structuré conçu pour créer des applications web maintenables.",
+  "Utility": "Développer des applications web robustes avec une architecture claire et modulaire."
+},
+"Roda": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Ruby","Framework"],
+  "Description": "Framework Ruby minimaliste basé sur un routeur ultra performant.",
+  "Utility": "Créer des APIs et services web légers, rapides et très personnalisés."
+},
+"Padrino": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Ruby","Framework"],
+  "Description": "Framework Ruby basé sur Sinatra, offrant une structure MVC complète.",
+  "Utility": "Développer des applications web modulaires avec un framework Ruby flexible et complet."
+},
+"Groovy": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Java"],
+  "Description": "Langage JVM dynamique et simplifié, compatible avec Java.",
+  "Utility": "Écrire des applications Java plus concises, automatiser des tâches et créer des scripts."
+},
+"Jakarta": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Java","Framework"],
+  "Description": "Ensemble de spécifications pour le développement d'applications Java d'entreprise.",
+  "Utility": "Construire des applications métier robustes, scalables et standardisées."
+},
+"Apache Struts": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Java","Framework"],
+  "Description": "Framework Java basé sur MVC pour les applications web d'entreprise.",
+  "Utility": "Développer des applications web structurées en Java avec une architecture claire."
+},
+"Play Framework": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Java","Framework"],
+  "Description": "Framework web réactif pour Java et Scala inspiré de Ruby on Rails.",
+  "Utility": "Créer des applications web rapides, scalables et asynchrones avec Java/Scala."
+}
+,
   "JSF": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
@@ -597,143 +612,190 @@
     "OthersTags": ["Java","Framework"]
   },
   "Spring Boot": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Java","Framework","Spring"]
-  },
-  "Spring MVC": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Java","Framework","Spring"]
-  },
-  "Spring Security": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Java","Framework","Spring"]
-  },
-  "Spring Data": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Java","Framework","Spring"]
-  },
-  "Spring Cloud": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Java","Framework","Spring"]
-  },
-  "Spring Batch": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Java","Framework","Spring"]
-  },
-  "Spring Session": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Java","Framework","Spring"]
-  },
-  "Gin": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Golang"]
-  },
-  "Echo": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Golang"]
-  },
-  "Beego": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Golang"]
-  },
-  "Fiber": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Golang"]
-  },
-  "Buffalo": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Golang"]
-  },
-  "Sails JS": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Node JS","Framework"]
-  },
-  "ExpressJS": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Node JS","Framework"]
-  },
-  "NestJS": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Node JS","Framework"]
-  },
-  "KoaJS": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Node JS","Framework"]
-  },
-  "HapiJS": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Node JS","Framework"]
-  },
-  "LoopbackJS": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Node JS","Framework"]
-  },
-  "MeteorJS": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Node JS","Framework"]
-  },
-  "FastifyJS": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["Node JS","Framework"]
-  },
-  ".NET (.NET core)": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["C#",".net"]
-  },
-  "WPF": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["C#",".net"]
-  },
-  "ASP.net": {
-    "MainCategory": "Back-End",
-    "SubCategory": "Dev",
-    "MainTag": ["Langages-de-prog"],
-    "OthersTags": ["C#",".net"]
-  },
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Java","Framework","Spring"],
+  "Description": "Framework Spring simplifié qui permet de créer rapidement des applications Java prêtes à l’emploi.",
+  "Utility": "Développer des applications Java avec configuration automatique et serveurs intégrés."
+},
+"Spring MVC": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Java","Framework","Spring"],
+  "Description": "Module Spring basé sur le modèle MVC pour gérer les applications web et leurs contrôleurs.",
+  "Utility": "Créer des interfaces web structurées avec routage, contrôleurs et vues."
+},
+"Spring Security": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Java","Framework","Spring"],
+  "Description": "Framework de sécurisation pour authentification, autorisation et protection des applications Spring.",
+  "Utility": "Gérer la sécurité des APIs et applications web : login, rôles, tokens."
+},
+"Spring Data": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Java","Framework","Spring"],
+  "Description": "Module Spring dédié à la gestion simplifiée de la persistance et des bases de données.",
+  "Utility": "Connecter une application Java à une base de données via des repositories automatiques."
+},
+"Spring Cloud": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Java","Framework","Spring"],
+  "Description": "Ensemble d’outils Spring pour créer des architectures microservices distribuées.",
+  "Utility": "Gérer la configuration, le routing, le load balancing et les services distribués."
+},
+"Spring Batch": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Java","Framework","Spring"],
+  "Description": "Framework Spring spécialisé dans les traitements batch et le traitement massif de données.",
+  "Utility": "Créer et exécuter des jobs planifiés et des traitements par lots."
+},
+"Spring Session": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Java","Framework","Spring"],
+  "Description": "Module permettant la gestion centralisée des sessions utilisateurs dans Spring.",
+  "Utility": "Partager et stocker les sessions entre plusieurs instances ou microservices."
+},
+"Gin": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Golang"],
+  "Description": "Framework web minimaliste et très rapide pour Go.",
+  "Utility": "Créer des APIs performantes avec un routage simple et efficace."
+},
+"Echo": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Golang"],
+  "Description": "Framework Go performant avec un router optimisé et une structure modulaire.",
+  "Utility": "Développer des services web scalables en Go avec une configuration simple."
+},
+"Beego": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Golang"],
+  "Description": "Framework Go complet inspiré de Django, offrant une structure MVC.",
+  "Utility": "Créer des applications Go organisées avec ORM intégré et contrôleurs."
+},
+"Fiber": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Golang"],
+  "Description": "Framework Go inspiré d’ExpressJS, orienté rapidité et simplicité.",
+  "Utility": "Construire rapidement des APIs en Go avec une syntaxe type NodeJS."
+},
+"Buffalo": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Golang"],
+  "Description": "Framework Go full-stack avec outils CLI et génération de code.",
+  "Utility": "Créer des applications web complètes en Go avec scaffolding automatique."
+},
+"Sails JS": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Node JS","Framework"],
+  "Description": "Framework MVC pour Node.js inspiré de Ruby on Rails.",
+  "Utility": "Créer des APIs structurées et applications web temps réel."
+},
+"ExpressJS": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Node JS","Framework"],
+  "Description": "Framework minimaliste et flexible pour Node.js.",
+  "Utility": "Construire des APIs et backends Node rapidement avec des middlewares."
+},
+"NestJS": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Node JS","Framework"],
+  "Description": "Framework Node structuré basé sur TypeScript et inspiré d’Angular.",
+  "Utility": "Créer des APIs modulaires, testables et scalables."
+},
+"KoaJS": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Node JS","Framework"],
+  "Description": "Framework Node minimal basé sur les middlewares async.",
+  "Utility": "Développer des APIs légères avec une gestion moderne des middleware."
+},
+"HapiJS": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Node JS","Framework"],
+  "Description": "Framework Node orienté configuration plutôt que code.",
+  "Utility": "Créer des APIs sécurisées et robustes avec une configuration centralisée."
+},
+"LoopbackJS": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Node JS","Framework"],
+  "Description": "Framework Node permettant de générer des APIs REST automatiquement.",
+  "Utility": "Créer rapidement des APIs connectées à des bases de données sans écrire beaucoup de code."
+},
+"MeteorJS": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Node JS","Framework"],
+  "Description": "Framework full-stack JavaScript avec synchro automatique client/serveur.",
+  "Utility": "Faire des applications temps réel avec base partagée entre client et serveur."
+},
+"FastifyJS": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["Node JS","Framework"],
+  "Description": "Framework Node ultra rapide orienté performance.",
+  "Utility": "Développer des APIs Node optimisées avec un coût minimal par requête."
+},
+".NET (.NET core)": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["C#",".net"],
+  "Description": "Plateforme moderne et cross-platform pour développer en C#.",
+  "Utility": "Créer des APIs, services et applications performantes multi-OS."
+},
+"WPF": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["C#",".net"],
+  "Description": "Framework .NET pour créer des applications desktop Windows.",
+  "Utility": "Développer des interfaces graphiques modernes en C#."
+},
+"ASP.net": {
+  "MainCategory": "Back-End",
+  "SubCategory": "Dev",
+  "MainTag": ["Langages-de-prog"],
+  "OthersTags": ["C#",".net"],
+  "Description": "Framework web Microsoft pour créer des sites et APIs en C#.",
+  "Utility": "Développer des applications web dynamiques avec .NET."
+}
+,
   "Blazor": {
     "MainCategory": "Back-End",
     "SubCategory": "Dev",
