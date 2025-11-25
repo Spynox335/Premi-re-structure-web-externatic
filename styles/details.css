@@ -18,13 +18,14 @@ justify-content: center;
  border-radius: 6px;
    border: 1px solid #223649;
    transition: 100ms;
-   height: 50%;
+   /* height: 50%; */
    width: 35%;
 
 }
 
 .details .details-header{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -36,20 +37,23 @@ justify-content: center;
 .Tags {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin: 10px 0px;
 }
 .MainTag{
   background-color: #0641796f;
   padding: 5px 10px;
   border-radius: 8px;
-  margin: 0px 10px;
-  justify-self: right;
+  width: fit-content;
+  height: fit-content;
 }
 .SecondTag{
   background-color: #6a79066f;
   padding: 5px 10px;
+    width: fit-content;
+  height: fit-content;
   border-radius: 8px;
-  margin: 0px 10px;
-  justify-self: right;
+  margin: 0px 5px;
 }
 
 
@@ -65,3 +69,5 @@ justify-content: center;
    transition: 100ms;
 
 }
+
+

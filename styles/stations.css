@@ -1,28 +1,26 @@
 
 
 ul li{
-    background-color:#182634;
+    background-color:#0e1c2a;
+    
     color: rgb(245, 246, 250);
-    text-align:justify;
-    font: size 1.2rem;
     margin:10px 0;
     flex-direction: row;
     cursor: pointer;
     list-style:none;
     padding: 10px 16px;
-    order: 1px solid #223649;
     border: 1px solid #223649;
 
 
 }
-ul{
-    background-color: rgb(195, 208, 220);
-    margin: auto;
-    padding:0;
-}
-h1{
-    text-align: center;
 
+ul{
+    margin: auto;
+    padding:10px;
+}
+
+.Center-Text {
+    text-align: center;
 }
 
 

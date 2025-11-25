@@ -1,11 +1,18 @@
-const buttonlist = document.querySelectorAll('.tech')
 
-console.log(buttonlist)
+import { To , Reset,Hide} from "./Cards.js";
 
+export function ListChanged(){
+    const buttonlist = document.querySelectorAll('.tech')
 
-buttonlist.forEach((button) => {
-    button.addEventListener("click" , (event) => {
-    event.preventDefault();
+let Link =  window.location.origin+ window.location.pathname // Url de base du site 
+//console.log(window.location)
+buttonlist.forEach((Element)=>{
+    Element.addEventListener("click",(event)=>{
+        To(Element.innerText)
+        console.log(Link)
+            location.replace(`${Link}#${Element.innerText}`); // change le lien , utilise le # pour target a la card et directement s'aligner a la card
+
+      //  console.log(Element.innerText)
+    })
 })
-});
-
+}
