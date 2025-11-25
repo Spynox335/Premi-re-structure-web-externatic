@@ -1,5 +1,5 @@
 header {
-   
+       background-image:linear-gradient(#182634,#2236);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
