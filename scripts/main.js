@@ -4,11 +4,13 @@ import { To , Reset,Hide} from "./Cards.js";
 export function ListChanged(){
     const buttonlist = document.querySelectorAll('.tech')
 
-console.log(buttonlist)
-
+let Link =  window.location.href // Url de base du site 
 buttonlist.forEach((Element)=>{
     Element.addEventListener("click",(event)=>{
         To(Element.innerText)
+        console.log(Link)
+            location.replace(`${Link}#${Element.innerText}`); // change le lien , utilise le # pour target a la card et directement s'aligner a la card
+
         console.log(Element.innerText)
     })
 })
