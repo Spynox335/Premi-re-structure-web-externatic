@@ -2,6 +2,7 @@ header {
    
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 70%;
@@ -20,9 +21,17 @@ hr{
     padding-left: 40%;
 }
 
+
 .search-bar {
     background-color: #182634;
    padding: 5px 10px;
+   display: flex;
+
+}
+
+.search-bar form{
+   align-items: center;
+   display: flex;
 
 }
 
