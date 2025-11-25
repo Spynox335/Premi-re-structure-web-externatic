@@ -1,5 +1,5 @@
 
-import { To , Reset,Hide} from "./Cards.js";
+import { To , Reset,Hide} from "./Cards.js"; // Module 
 
 export function ListChanged(){
     const buttonlist = document.querySelectorAll('.tech')
