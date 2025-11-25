@@ -63,7 +63,7 @@ const AddNewCardDesc = (Data,Name) => {
 
 
 
-    const Card = ` <div class="details">
+    const Card = ` <div class="details" id="${Name}">
             <div class="details-header">
                 <h2>${Name}</h2>
                 <div class="Tags">
