@@ -4,7 +4,7 @@ import { To , Reset,Hide} from "./Cards.js";
 export function ListChanged(){
     const buttonlist = document.querySelectorAll('.tech')
 
-let Link =  window.location.origin // Url de base du site 
+let Link =  window.location.origin+ window.location.pathname // Url de base du site 
 //console.log(window.location)
 buttonlist.forEach((Element)=>{
     Element.addEventListener("click",(event)=>{
