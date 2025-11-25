@@ -3,7 +3,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 70%;
     margin: 20px auto 0px  auto;
@@ -19,6 +19,7 @@ hr{
 .search-bar h1{
     color:black;
     padding-left: 40%;
+
 }
 
 
@@ -26,8 +27,17 @@ hr{
     background-color: #182634;
    padding: 5px 10px;
    display: flex;
+    border-radius: 6px;
+   border: 1px solid #223649;
 
 }
+
+.search-bar:hover {
+   
+   border: 1px solid #2d6192;
+
+}
+
 
 .search-bar form{
    align-items: center;
@@ -59,10 +69,15 @@ hr{
     font-size: 1.5em;
 }
 .tech {
-  font-size: 1.3em;
+  font-size: 1em;
   
 }
 
-
+header {
+   
+   
+    justify-content: center;
+  
+}
 
  }
