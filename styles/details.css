@@ -37,16 +37,15 @@ justify-content: center;
 .Tags {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 10px 0px;
 }
 .MainTag{
   background-color: #0641796f;
   padding: 5px 10px;
   border-radius: 8px;
-  margin: 0px 10px;
   width: fit-content;
   height: fit-content;
-  justify-self: right;
 }
 .SecondTag{
   background-color: #6a79066f;
@@ -54,8 +53,7 @@ justify-content: center;
     width: fit-content;
   height: fit-content;
   border-radius: 8px;
-  margin: 0px 10px;
-  justify-self: right;
+  margin: 0px 5px;
 }
 
 
@@ -73,14 +71,3 @@ justify-content: center;
 }
 
 
- @media (max-width: 750px) {
-
-.details {
-  width: 90%;
-  height: 50%;
-}
-.tech {
-  font-size: 1.5em;
-}
-
- }
