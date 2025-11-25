@@ -132,7 +132,6 @@ const InitCategories = () => {
 
 const GetSearchBar = () => {
     const Value = Searchbar.value
-    let FinalData = {}
     let NewData =  filterObject( ConfigJson,(Data,key) =>  ChoosedCategory == "" &&  key.toLowerCase().includes(Value.toLowerCase()) || ChoosedCategory == Data.MainCategory && key.toLowerCase().includes(Value.toLowerCase()) ) 
 
     TechList.innerHTML = ""
